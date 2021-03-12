@@ -1,0 +1,2 @@
+# Engagement-Tracking-using-Deep-neural-networks
+Detecting the engagement levels gives a hugehelp  to  measure  the  quality  and  attention  indifferent situations.  For learning process, stu-dent  performance  and  class  quality  could  beevaluated through the levels.  In this task, weproposed a neural network within the attentionpooling mechanism to achieve a more accuratepredictions on the engagement scales

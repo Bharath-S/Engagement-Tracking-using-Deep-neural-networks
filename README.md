@@ -28,13 +28,13 @@ The extracted 31-dimensional frame-level fea-tures were then used to create segm
 
 Recurrent Neural Networks (RNN) models haverecently become popular for automatically learninguseful features from sequential results. A RNNis a type of neural network with loops that allowdata to be stored within the network. RNNs usetheir logic from past interactions to predict futureevents. Recurrent models are useful because theycan be applied to sequence vectors, allowing tohandle more complex tasks.Following this pattern, we investigated the use ofRNN models for setting up our AI. RNNs that usegates to monitor the flow of information abstractedfrom a sequence are known as Long Short-TermMemory (LSTM). We used Bi-directional LSTM(BLSTM) in this study to help maintain thetemporal dynamic characteristics. TensorFlow andKeras are used to implement these NN models andthe attention function
 
-![Model Architecture](./Pictures/Model.png)
+<img src="./Pictures/Model.png" width="300">
 
 ## Training 
 
-![Loss](./Pictures/Loss.png)
-![Accuracy](./Pictures/Accuracy.png)
+<img src="./Pictures/Traning.png" height="300">
 
 ## Conclusion and Future Work
 
 In this project, we attempted to incorporate a inter-action monitoring model based on the paper from(Cheng Chang , Cheng Zhang, Lei Chen, YangLiu).This paper (Abhay Gupta, Arjun D’Cunha, KamalAwasthi and Vineeth Balasubramanian) presentsDAiSEE, a dataset designed to aid research anddevelopment in the field of user interaction identifi-cation. The DAiSEE dataset, which contains videorecordings of subjects in an e-learning environmentannotated with crowdsourced labels for engage-ment, anger, uncertainty, and boredom. The datasetcaptures “in the wild” settings that are common inthe real world, and it will be made public, alongwith the crowd’s individual annotations, to encour-age open study.(Abhay Gupta, Arjun D’Cunha, Ka-mal Awasthi and Vineeth Balasubramanian)The engagement levels from the DAiSEE datasetcan be easily applied to our model. It has in total 4levels like we use to train our model. The resultsof this massive dataset may be used to improveaccuracy
+

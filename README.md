@@ -32,7 +32,7 @@ Recurrent Neural Networks (RNN) models haverecently become popular for automatic
 
 ## Training 
 
-<img src="./Pictures/Traning.png" height="300">
+<img src="./Pictures/Training.png" height="300">
 
 ## Conclusion and Future Work
 
